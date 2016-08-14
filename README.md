@@ -2,8 +2,8 @@
 The 'U' stands for 'Unofficial'. This repository will be more actively as I'm using Google Test heavily in my daily work.
 Issues and PRs are welcome! And I'll always be responsive.
 
-[![Build Status](https://travis-ci.org/google/googletest.svg?branch=master)](https://travis-ci.org/google/googletest)
-[![Build status](https://ci.appveyor.com/api/projects/status/4o38plt0xbo1ubc8/branch/master?svg=true)](https://ci.appveyor.com/project/BillyDonahue/googletest/branch/master)
+[![Build Status](https://travis-ci.org/mazong1123/googletest.svg?branch=master)](https://travis-ci.org/mazong1123/googletest)
+[![Build status](https://ci.appveyor.com/api/projects/status/lvybuu07md27mrep/branch/master?svg=true)](https://ci.appveyor.com/project/mazong1123/googletest/branch/master)
 
 Welcome to **Google Test**, Google's C++ test framework!
 
