@@ -4,10 +4,10 @@
 # http://lint.travis-ci.org/
 
 install:
-# /usr/bin/gcc is 4.6 always, but gcc-X.Y is available.
-- if [ "$CXX" = "g++" ]; then export CXX="g++-5" CC="gcc-5"; fi
 # osx does not support gcc 5 by now.
 - if [ "$TRAVIS_OS_NAME" == "osx"] && ["$CXX" == "g++" ]; then export CXX="g++-4.9" CC="gcc-4.9"; fi
+# /usr/bin/gcc is 4.6 always, but gcc-X.Y is available.
+- if [ "$CXX" = "g++" ]; then export CXX="g++-5" CC="gcc-5"; fi
 # /usr/bin/clang is 3.4, lets override with modern one.
 - if [ "$CXX" = "clang++" ] && [ "$TRAVIS_OS_NAME" = "linux" ]; then export CXX="clang++-3.7" CC="clang-3.7"; fi
 - echo ${PATH}
